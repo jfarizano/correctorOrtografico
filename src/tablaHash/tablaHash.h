@@ -5,28 +5,28 @@
 #include <stddef.h>
 
 ///////////////////////////////////////////////////////////////////////////////
+// Puntero a función hash
+
+typedef size_t (*FuncionHash)(wchar_t* string);
+
+///////////////////////////////////////////////////////////////////////////////
 // Definiciones de estructuras
 
 
 typedef struct {
   BSTree* tabla;
-  unsigned capacidad;
+  size_t capacidad;
   FuncionHash hash;
 } TablaHash;
-
-///////////////////////////////////////////////////////////////////////////////
-// Puntero a función hash
-
-typedef unsigned (*FuncionHash)(void* clave);
 
 ///////////////////////////////////////////////////////////////////////////////
 // Prototipos de funciones.
 
 /*
-  tablahash_crear(): unsigned FuncionHash -> TablaHash*
+  tablahash_crear(): size_t FuncionHash -> TablaHash*
   Crea una nueva tabla Hash vacía, con la capacidad dada.
  */
-TablaHash* tablahash_crear(unsigned capacidad, FuncionHash fun);
+TablaHash* tablahash_crear(size_t capacidad, FuncionHash hash);
 
 /*
   tablahash_insertar(): TablaHash* wchar_t*
