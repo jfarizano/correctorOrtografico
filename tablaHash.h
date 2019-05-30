@@ -1,16 +1,16 @@
 #ifndef __TABLAHASH_H__
 #define __TABLAHASH_H__
 
-#include "../bstree/bstree.h"
+#include "bstree.h"
 #include <stddef.h>
 
 ///////////////////////////////////////////////////////////////////////////////
-// Puntero a función hash
+// Puntero a función hash.
 
 typedef size_t (*FuncionHash)(wchar_t* string);
 
 ///////////////////////////////////////////////////////////////////////////////
-// Definiciones de estructuras
+// Definiciones de estructuras.
 
 
 typedef struct {

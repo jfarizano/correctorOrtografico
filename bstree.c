@@ -8,20 +8,13 @@ BSTree bstree_crear() {
   return NULL;
 }
 
-BSTree bstree_nuevo_nodo(wchar_t* string) {
-  BSTree nuevoArbol = malloc(sizeof(BSTNodo));
-  wchar_t* nuevoString = malloc(sizeof(wchar_t) * (wcslen(string) + 1));
-  nuevoArbol->left = NULL;
-  nuevoArbol->right = NULL;
-  nuevoArbol->string = wcscpy(nuevoString, string);
-
-  return nuevoArbol;
-}
-
-BSTree bstree_insertar(BSTree arbol, wchar_t* string) {
-  
+BSTree bstree_insertar(BSTree arbol, wchar_t* string) {  
   if (arbol == NULL) {
-    BSTree nuevoArbol = bstree_nuevo_nodo(string);
+    BSTree nuevoArbol = malloc(sizeof(BSTNodo));
+    wchar_t* nuevoString = malloc(sizeof(wchar_t) * (wcslen(string) + 1));
+    nuevoArbol->left = NULL;
+    nuevoArbol->right = NULL;
+    nuevoArbol->string = wcscpy(nuevoString, string);
     return nuevoArbol;
   }
 

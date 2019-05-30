@@ -4,13 +4,13 @@
 #include <stddef.h>
 
 ///////////////////////////////////////////////////////////////////////////////
-// Puntero a función utilizada en recorrer
+// Puntero a función utilizada en recorrer.
 typedef void (*FuncionVisitante) (wchar_t* string);
 
 ///////////////////////////////////////////////////////////////////////////////
-// Definiciones de estructuras
+// Definiciones de estructuras.
 
-// BSTree es un árbol de búsqueda (ABB)
+// BSTree es un árbol de búsqueda (ABB).
 typedef struct _BSTNodo {
   wchar_t* string;
   struct _BSTNodo *left;

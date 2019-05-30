@@ -1,6 +1,5 @@
 #include "tablaHash.h"
 #include <stdlib.h>
-#include <stddef.h>
 #include <wchar.h>
 
 TablaHash* tablahash_crear(size_t capacidad, FuncionHash hash) {
@@ -17,13 +16,13 @@ TablaHash* tablahash_crear(size_t capacidad, FuncionHash hash) {
 }
 
 void tablahash_insertar(TablaHash* tabla, wchar_t* string) {
-  size_t key = tabla->hash(string) % tabla->capacidad;
-  tabla->tabla[key] = bstree_insertar(tabla->tabla[key], string);
+  size_t clave = tabla->hash(string) % tabla->capacidad;
+  tabla->tabla[clave] = bstree_insertar(tabla->tabla[clave], string);
 }
 
 int tablahash_buscar(TablaHash* tabla, wchar_t* string) {
-  size_t key = tabla->hash(string) % tabla->capacidad;
-  return bstree_buscar(tabla->tabla[key], string);
+  size_t clave = tabla->hash(string) % tabla->capacidad;
+  return bstree_buscar(tabla->tabla[clave], string);
 }
 
 void tablahash_destruir(TablaHash* tabla) {
