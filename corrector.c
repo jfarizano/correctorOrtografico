@@ -187,8 +187,8 @@ void corregir_palabra(wchar_t* palabra, TablaHash* diccionario) {
             !slist_contiene(sugerencias, nodo->string)) {
           sugerencias = slist_agregar_inicio(sugerencias, nodo->string);
           cantSugerencias++;
-          wprintf(L"Palabra a corregir: %ls, correción: %ls, profundidad: %d, sugerencia n: %d", palabra, nodo->string, profundidad, cantSugerencias);
-          wprintf(L"\n");
+          // wprintf(L"Palabra a corregir: %ls, correción: %ls, profundidad: %d, sugerencia n: %d", palabra, nodo->string, profundidad, cantSugerencias);
+          // wprintf(L"\n");
         }
       }
 

@@ -1,0 +1,2371 @@
+desc: --massif-out-file=usoRAM.out
+cmd: ./corrector.o
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=20440770
+mem_heap_B=853329
+mem_heap_extra_B=391103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=42402014
+mem_heap_B=1563109
+mem_heap_extra_B=730155
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1563109 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 933236 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 851260 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 770444 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 689724 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n3: 610352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n3: 533512 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n3: 458908 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n3: 387480 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n3: 319320 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n3: 255520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 198232 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 148496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n3: 106988 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n3: 74004 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 49072 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 31260 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 31260 in 2 places, all below massif's threshold (1.00%)
+                n0: 17812 in 2 places, all below massif's threshold (1.00%)
+               n1: 24888 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 24888 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 24888 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 44 in 1 place, below massif's threshold (1.00%)
+              n1: 32856 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 32856 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 32856 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 128 in 1 place, below massif's threshold (1.00%)
+             n1: 41212 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 41212 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 41212 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 296 in 1 place, below massif's threshold (1.00%)
+            n1: 49192 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 49192 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 49192 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 544 in 1 place, below massif's threshold (1.00%)
+           n1: 56468 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n1: 56468 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 56468 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 820 in 1 place, below massif's threshold (1.00%)
+          n1: 62664 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n1: 62664 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 62664 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 1136 in 1 place, below massif's threshold (1.00%)
+         n1: 66304 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n1: 66304 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 66304 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 1856 in 1 place, below massif's threshold (1.00%)
+        n1: 68992 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n1: 68992 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 68992 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 2436 in 1 place, below massif's threshold (1.00%)
+       n1: 71468 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n1: 71468 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 71468 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 3136 in 1 place, below massif's threshold (1.00%)
+      n1: 73384 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n1: 73384 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 73384 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 3456 in 1 place, below massif's threshold (1.00%)
+     n1: 75600 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 75600 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 75600 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 3772 in 1 place, below massif's threshold (1.00%)
+    n1: 76816 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 76816 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 76816 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 3904 in 1 place, below massif's threshold (1.00%)
+   n1: 76908 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 76908 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 76908 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 3908 in 1 place, below massif's threshold (1.00%)
+  n1: 78276 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 78276 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 78276 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 3700 in 1 place, below massif's threshold (1.00%)
+ n3: 584232 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 533664 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 483216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 432792 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n3: 382896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n3: 334056 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n3: 286512 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n3: 240960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n3: 197568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n3: 157128 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 120936 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 89736 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 64416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 44376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 29184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 29184 in 3 places, all below massif's threshold (1.00%)
+               n0: 15192 in 2 places, all below massif's threshold (1.00%)
+              n0: 20040 in 2 places, all below massif's threshold (1.00%)
+             n1: 25128 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 25128 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 25128 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 192 in 1 place, below massif's threshold (1.00%)
+            n1: 30888 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 30888 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 30888 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 312 in 1 place, below massif's threshold (1.00%)
+           n1: 35736 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n1: 35736 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 35736 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 456 in 1 place, below massif's threshold (1.00%)
+          n1: 39768 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n1: 39768 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 39768 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 672 in 1 place, below massif's threshold (1.00%)
+         n1: 42288 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n1: 42288 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 42288 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 1104 in 1 place, below massif's threshold (1.00%)
+        n1: 44112 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n1: 44112 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 44112 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 1440 in 1 place, below massif's threshold (1.00%)
+       n1: 45672 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n1: 45672 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 45672 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 1872 in 1 place, below massif's threshold (1.00%)
+      n1: 46704 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n1: 46704 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 46704 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 2136 in 1 place, below massif's threshold (1.00%)
+     n1: 47496 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 47496 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 47496 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2400 in 1 place, below massif's threshold (1.00%)
+    n1: 47880 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 47880 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 47880 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 2544 in 1 place, below massif's threshold (1.00%)
+   n1: 47904 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 47904 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 47904 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 2544 in 1 place, below massif's threshold (1.00%)
+  n1: 47976 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 47976 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 47976 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 2592 in 1 place, below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=57393701
+mem_heap_B=1995901
+mem_heap_extra_B=924787
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=78853694
+mem_heap_B=2552641
+mem_heap_extra_B=1183871
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=96898179
+mem_heap_B=2982193
+mem_heap_extra_B=1384335
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=111957951
+mem_heap_B=3309881
+mem_heap_extra_B=1545575
+mem_stacks_B=0
+heap_tree=detailed
+n3: 3309881 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2027304 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 1942476 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 1858876 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 1775988 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n3: 1694376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n3: 1614808 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n3: 1536148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n3: 1458064 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n3: 1380060 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n3: 1301976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 1223612 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 1143704 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n3: 1062508 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n3: 981944 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n3: 900836 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n3: 820012 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n3: 739760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n3: 661168 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n3: 584548 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n3: 511712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n3: 442588 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n3: 377896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n3: 317884 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 263788 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 215336 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 172284 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 135452 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 103932 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 78400 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 57300 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 21100 in 2 places, all below massif's threshold (1.00%)
+                             n0: 25532 in 2 places, all below massif's threshold (1.00%)
+                            n0: 31520 in 2 places, all below massif's threshold (1.00%)
+                           n0: 36832 in 2 places, all below massif's threshold (1.00%)
+                          n0: 43052 in 2 places, all below massif's threshold (1.00%)
+                         n0: 48452 in 2 places, all below massif's threshold (1.00%)
+                        n1: 52572 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n1: 52572 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                          n0: 52572 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                        n0: 1524 in 1 place, below massif's threshold (1.00%)
+                       n1: 58220 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n1: 58220 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                         n0: 58220 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                       n0: 1792 in 1 place, below massif's threshold (1.00%)
+                      n1: 62476 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n1: 62476 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                        n0: 62476 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                      n0: 2216 in 1 place, below massif's threshold (1.00%)
+                     n1: 66596 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n1: 66596 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                       n0: 66596 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 2528 in 1 place, below massif's threshold (1.00%)
+                    n1: 69828 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n1: 69828 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                      n0: 69828 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 3008 in 1 place, below massif's threshold (1.00%)
+                   n1: 73388 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n1: 73388 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 73388 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 3232 in 1 place, below massif's threshold (1.00%)
+                  n1: 74880 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n1: 74880 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 74880 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 3712 in 1 place, below massif's threshold (1.00%)
+                 n1: 76464 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n1: 76464 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 76464 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 3788 in 1 place, below massif's threshold (1.00%)
+                n1: 76588 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n1: 76588 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 76588 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 4236 in 1 place, below massif's threshold (1.00%)
+               n1: 76740 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 76740 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 76740 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 4368 in 1 place, below massif's threshold (1.00%)
+              n1: 76156 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 76156 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 76156 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 4408 in 1 place, below massif's threshold (1.00%)
+             n1: 76628 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 76628 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 76628 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 4568 in 1 place, below massif's threshold (1.00%)
+            n1: 75172 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 75172 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 75172 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 4736 in 1 place, below massif's threshold (1.00%)
+           n1: 73428 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n1: 73428 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 73428 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 4936 in 1 place, below massif's threshold (1.00%)
+          n1: 72976 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n1: 72976 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 72976 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 5108 in 1 place, below massif's threshold (1.00%)
+         n1: 72928 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n1: 72928 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 72928 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 5076 in 1 place, below massif's threshold (1.00%)
+        n1: 72824 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n1: 72824 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 72824 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 5260 in 1 place, below massif's threshold (1.00%)
+       n1: 73216 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n1: 73216 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 73216 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 5444 in 1 place, below massif's threshold (1.00%)
+      n1: 74068 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n1: 74068 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 74068 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 5500 in 1 place, below massif's threshold (1.00%)
+     n1: 75772 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 75772 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 75772 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 5840 in 1 place, below massif's threshold (1.00%)
+    n1: 76816 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 76816 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 76816 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 6072 in 1 place, below massif's threshold (1.00%)
+   n1: 76956 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 76956 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 76956 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 6644 in 1 place, below massif's threshold (1.00%)
+  n1: 78276 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 78276 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 78276 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 6552 in 1 place, below massif's threshold (1.00%)
+ n2: 1236936 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1184424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1132272 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1080480 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1029216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 978720 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 928800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 879456 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 830496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 781848 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 733488 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 685320 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 637368 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 589632 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 542064 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 494736 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 447792 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 401688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 356664 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 312960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 271416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 232272 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 196080 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 163128 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 133320 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 106944 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 84336 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 65184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n1: 49368 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 49368 in 3 places, all below massif's threshold (1.00%)
+                             n0: 15816 in 2 places, all below massif's threshold (1.00%)
+                            n0: 19152 in 2 places, all below massif's threshold (1.00%)
+                           n0: 22608 in 2 places, all below massif's threshold (1.00%)
+                          n0: 26376 in 2 places, all below massif's threshold (1.00%)
+                         n0: 29808 in 2 places, all below massif's threshold (1.00%)
+                        n0: 32952 in 2 places, all below massif's threshold (1.00%)
+                       n0: 36192 in 2 places, all below massif's threshold (1.00%)
+                      n0: 39144 in 2 places, all below massif's threshold (1.00%)
+                     n0: 41544 in 2 places, all below massif's threshold (1.00%)
+                    n0: 43704 in 2 places, all below massif's threshold (1.00%)
+                   n0: 45024 in 2 places, all below massif's threshold (1.00%)
+                  n0: 46104 in 2 places, all below massif's threshold (1.00%)
+                 n0: 46944 in 2 places, all below massif's threshold (1.00%)
+                n0: 47328 in 2 places, all below massif's threshold (1.00%)
+               n0: 47568 in 2 places, all below massif's threshold (1.00%)
+              n0: 47736 in 2 places, all below massif's threshold (1.00%)
+             n0: 47952 in 2 places, all below massif's threshold (1.00%)
+            n0: 48168 in 2 places, all below massif's threshold (1.00%)
+           n0: 48360 in 2 places, all below massif's threshold (1.00%)
+          n0: 48648 in 2 places, all below massif's threshold (1.00%)
+         n0: 48960 in 2 places, all below massif's threshold (1.00%)
+        n0: 49344 in 2 places, all below massif's threshold (1.00%)
+       n0: 49920 in 2 places, all below massif's threshold (1.00%)
+      n0: 50496 in 2 places, all below massif's threshold (1.00%)
+     n0: 51264 in 2 places, all below massif's threshold (1.00%)
+    n0: 51792 in 2 places, all below massif's threshold (1.00%)
+   n0: 52152 in 2 places, all below massif's threshold (1.00%)
+  n0: 52512 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=124343624
+mem_heap_B=3562005
+mem_heap_extra_B=1670187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=138473017
+mem_heap_B=3842969
+mem_heap_extra_B=1808855
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=147289381
+mem_heap_B=4014629
+mem_heap_extra_B=1890747
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=161394753
+mem_heap_B=4281613
+mem_heap_extra_B=2016851
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4281613 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2621828 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 2527784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 2437424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 2347756 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n3: 2259664 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n3: 2174308 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n3: 2090728 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n3: 2008596 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n3: 1927016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n3: 1845988 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 1765396 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 1683592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n3: 1600668 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n3: 1518432 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n3: 1435692 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n3: 1353428 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n3: 1271240 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n3: 1189792 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n3: 1109224 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n3: 1030884 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n3: 953644 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n3: 878040 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n3: 803452 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n3: 730688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n3: 659936 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n3: 590492 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 523800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 459028 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 398916 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 342728 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 56188 in 2 places, all below massif's threshold (1.00%)
+                             n0: 60112 in 2 places, all below massif's threshold (1.00%)
+                            n0: 64772 in 2 places, all below massif's threshold (1.00%)
+                           n1: 63956 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n1: 63956 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                             n0: 63956 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                           n0: 2736 in 1 place, below massif's threshold (1.00%)
+                          n1: 66444 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n1: 66444 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                            n0: 66444 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                          n0: 3000 in 1 place, below massif's threshold (1.00%)
+                         n1: 67540 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n1: 67540 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                           n0: 67540 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                         n0: 3212 in 1 place, below massif's threshold (1.00%)
+                        n1: 69256 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n1: 69256 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                          n0: 69256 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                        n0: 3508 in 1 place, below massif's threshold (1.00%)
+                       n1: 70776 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n1: 70776 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                         n0: 70776 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                       n0: 3812 in 1 place, below massif's threshold (1.00%)
+                      n1: 71972 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n1: 71972 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                        n0: 71972 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                      n0: 3632 in 1 place, below massif's threshold (1.00%)
+                     n1: 73128 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n1: 73128 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                       n0: 73128 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 4112 in 1 place, below massif's threshold (1.00%)
+                    n1: 73924 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n1: 73924 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                      n0: 73924 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 4416 in 1 place, below massif's threshold (1.00%)
+                   n1: 76092 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n1: 76092 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 76092 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 4476 in 1 place, below massif's threshold (1.00%)
+                  n1: 76580 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n1: 76580 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 76580 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 4868 in 1 place, below massif's threshold (1.00%)
+                 n1: 77304 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n1: 77304 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 77304 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 4884 in 1 place, below massif's threshold (1.00%)
+                n1: 77084 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n1: 77084 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 77084 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 5180 in 1 place, below massif's threshold (1.00%)
+               n1: 77100 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 77100 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 77100 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 5640 in 1 place, below massif's threshold (1.00%)
+              n1: 76312 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 76312 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 76312 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 5924 in 1 place, below massif's threshold (1.00%)
+             n1: 76800 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 76800 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 76800 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 6124 in 1 place, below massif's threshold (1.00%)
+            n1: 75172 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 75172 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 75172 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 6632 in 1 place, below massif's threshold (1.00%)
+           n1: 73428 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n1: 73428 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 73428 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 7164 in 1 place, below massif's threshold (1.00%)
+          n1: 73000 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n1: 73000 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 73000 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 8028 in 1 place, below massif's threshold (1.00%)
+         n1: 73004 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n1: 73004 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 73004 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 8576 in 1 place, below massif's threshold (1.00%)
+        n1: 72856 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n1: 72856 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 72856 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 9276 in 1 place, below massif's threshold (1.00%)
+       n1: 73256 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n1: 73256 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 73256 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 10324 in 1 place, below massif's threshold (1.00%)
+      n1: 74096 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n1: 74096 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 74096 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 11260 in 1 place, below massif's threshold (1.00%)
+     n1: 75772 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 75772 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 75772 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 12320 in 1 place, below massif's threshold (1.00%)
+    n1: 76816 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 76816 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 76816 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 12852 in 1 place, below massif's threshold (1.00%)
+   n1: 76956 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 76956 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 76956 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 13404 in 1 place, below massif's threshold (1.00%)
+  n1: 78276 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 78276 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 78276 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 15768 in 1 place, below massif's threshold (1.00%)
+ n2: 1614144 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1555296 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1498896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1442808 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1387488 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1333392 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1280424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1228512 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1177344 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1126920 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1077216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1027872 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 978864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 930096 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 881592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 833328 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 785136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 737232 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 689616 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 642336 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 595632 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 549432 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 503880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 458832 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 414576 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 371376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 329688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 289584 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 251808 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 216288 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 35520 in 2 places, all below massif's threshold (1.00%)
+                             n0: 37776 in 2 places, all below massif's threshold (1.00%)
+                            n0: 40104 in 2 places, all below massif's threshold (1.00%)
+                           n0: 41688 in 2 places, all below massif's threshold (1.00%)
+                          n0: 43200 in 2 places, all below massif's threshold (1.00%)
+                         n0: 44256 in 2 places, all below massif's threshold (1.00%)
+                        n0: 45048 in 2 places, all below massif's threshold (1.00%)
+                       n0: 45552 in 2 places, all below massif's threshold (1.00%)
+                      n0: 46200 in 2 places, all below massif's threshold (1.00%)
+                     n0: 46704 in 2 places, all below massif's threshold (1.00%)
+                    n0: 47280 in 2 places, all below massif's threshold (1.00%)
+                   n0: 47616 in 2 places, all below massif's threshold (1.00%)
+                  n0: 47904 in 2 places, all below massif's threshold (1.00%)
+                 n0: 48192 in 2 places, all below massif's threshold (1.00%)
+                n0: 48264 in 2 places, all below massif's threshold (1.00%)
+               n0: 48504 in 2 places, all below massif's threshold (1.00%)
+              n0: 48768 in 2 places, all below massif's threshold (1.00%)
+             n0: 49008 in 2 places, all below massif's threshold (1.00%)
+            n0: 49344 in 2 places, all below massif's threshold (1.00%)
+           n0: 49704 in 2 places, all below massif's threshold (1.00%)
+          n0: 50424 in 2 places, all below massif's threshold (1.00%)
+         n0: 51168 in 2 places, all below massif's threshold (1.00%)
+        n0: 51912 in 2 places, all below massif's threshold (1.00%)
+       n0: 52968 in 2 places, all below massif's threshold (1.00%)
+      n0: 54096 in 2 places, all below massif's threshold (1.00%)
+     n0: 55320 in 2 places, all below massif's threshold (1.00%)
+    n0: 56088 in 2 places, all below massif's threshold (1.00%)
+   n0: 56400 in 2 places, all below massif's threshold (1.00%)
+  n0: 58848 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=170211492
+mem_heap_B=4439821
+mem_heap_extra_B=2095635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=184325541
+mem_heap_B=4690241
+mem_heap_extra_B=2215743
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=196660691
+mem_heap_B=4901109
+mem_heap_extra_B=2318795
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4901109 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2999692 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 2905548 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 2814984 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 2724920 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n3: 2635960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n3: 2548920 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n3: 2463012 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n3: 2377996 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n3: 2293476 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n3: 2209468 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 2125740 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 2041112 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n3: 1955852 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n3: 1871460 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n3: 1786972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n3: 1703156 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n3: 1619636 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n3: 1536976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n3: 1455076 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n3: 1375380 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n3: 1296864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1219688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1143188 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1068392 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 994824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 921600 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 850108 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 778448 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 709116 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 641096 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 68020 in 2 places, all below massif's threshold (1.00%)
+                             n0: 69332 in 2 places, all below massif's threshold (1.00%)
+                            n0: 71660 in 2 places, all below massif's threshold (1.00%)
+                           n0: 71492 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73224 in 2 places, all below massif's threshold (1.00%)
+                         n0: 73568 in 2 places, all below massif's threshold (1.00%)
+                        n0: 74796 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76500 in 2 places, all below massif's threshold (1.00%)
+                      n1: 72652 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n1: 72652 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                        n0: 72652 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                      n0: 4524 in 1 place, below massif's threshold (1.00%)
+                     n1: 73580 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n1: 73580 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                       n0: 73580 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 4936 in 1 place, below massif's threshold (1.00%)
+                    n1: 74208 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n1: 74208 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                      n0: 74208 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 5488 in 1 place, below massif's threshold (1.00%)
+                   n1: 76252 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n1: 76252 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 76252 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 5648 in 1 place, below massif's threshold (1.00%)
+                  n1: 76580 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n1: 76580 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 76580 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 6080 in 1 place, below massif's threshold (1.00%)
+                 n1: 77304 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n1: 77304 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 77304 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 6216 in 1 place, below massif's threshold (1.00%)
+                n1: 77084 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n1: 77084 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 77084 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 6732 in 1 place, below massif's threshold (1.00%)
+               n1: 77100 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 77100 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 77100 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 7388 in 1 place, below massif's threshold (1.00%)
+              n1: 76312 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 76312 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 76312 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 8080 in 1 place, below massif's threshold (1.00%)
+             n1: 76800 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 76800 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 76800 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 8460 in 1 place, below massif's threshold (1.00%)
+            n1: 75172 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 75172 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 75172 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 9456 in 1 place, below massif's threshold (1.00%)
+           n1: 73428 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n1: 73428 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 73428 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 10300 in 1 place, below massif's threshold (1.00%)
+          n1: 73000 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n1: 73000 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 73000 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 11008 in 1 place, below massif's threshold (1.00%)
+         n1: 73004 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n1: 73004 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+           n0: 73004 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 11516 in 1 place, below massif's threshold (1.00%)
+        n1: 72856 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n1: 72856 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+          n0: 72856 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 12160 in 1 place, below massif's threshold (1.00%)
+       n1: 73256 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n1: 73256 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+         n0: 73256 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 12652 in 1 place, below massif's threshold (1.00%)
+      n1: 74096 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n1: 74096 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+        n0: 74096 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 12944 in 1 place, below massif's threshold (1.00%)
+     n1: 75772 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 75772 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 75772 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 13188 in 1 place, below massif's threshold (1.00%)
+    n1: 76816 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 76816 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 76816 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 13248 in 1 place, below massif's threshold (1.00%)
+   n1: 76956 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 76956 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 76956 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 13608 in 1 place, below massif's threshold (1.00%)
+  n1: 78276 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 78276 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 78276 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 15868 in 1 place, below massif's threshold (1.00%)
+ n2: 1855776 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1796880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1740384 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1684080 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1628136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1572984 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1518456 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1464720 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1411608 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1359264 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1307568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1256424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1205952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1155816 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1106184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1056888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1007808 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 959136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 910680 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 862584 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 815064 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 767880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 721056 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 674664 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 628608 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 583008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 538128 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 493680 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 449904 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 406968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 42936 in 2 places, all below massif's threshold (1.00%)
+                             n0: 43776 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44448 in 2 places, all below massif's threshold (1.00%)
+                           n0: 44880 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45600 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46056 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46392 in 2 places, all below massif's threshold (1.00%)
+                       n0: 46824 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47184 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47520 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48096 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48456 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48672 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49080 in 2 places, all below massif's threshold (1.00%)
+                n0: 49296 in 2 places, all below massif's threshold (1.00%)
+               n0: 49632 in 2 places, all below massif's threshold (1.00%)
+              n0: 50136 in 2 places, all below massif's threshold (1.00%)
+             n0: 50472 in 2 places, all below massif's threshold (1.00%)
+            n0: 51144 in 2 places, all below massif's threshold (1.00%)
+           n0: 51696 in 2 places, all below massif's threshold (1.00%)
+          n0: 52344 in 2 places, all below massif's threshold (1.00%)
+         n0: 53112 in 2 places, all below massif's threshold (1.00%)
+        n0: 53736 in 2 places, all below massif's threshold (1.00%)
+       n0: 54528 in 2 places, all below massif's threshold (1.00%)
+      n0: 55152 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56304 in 2 places, all below massif's threshold (1.00%)
+   n0: 56496 in 2 places, all below massif's threshold (1.00%)
+  n0: 58896 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=206877999
+mem_heap_B=5069393
+mem_heap_extra_B=2403687
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5069393 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n3: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n3: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n3: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n3: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n3: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n3: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n1: 76312 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n1: 76312 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 76312 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 5816 in 1 place, below massif's threshold (1.00%)
+                  n1: 76580 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n1: 76580 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 76580 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 6440 in 1 place, below massif's threshold (1.00%)
+                 n1: 77304 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n1: 77304 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 77304 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 6864 in 1 place, below massif's threshold (1.00%)
+                n1: 77084 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n1: 77084 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 77084 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 7368 in 1 place, below massif's threshold (1.00%)
+               n1: 77100 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 77100 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 77100 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 7944 in 1 place, below massif's threshold (1.00%)
+              n1: 76312 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 76312 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 76312 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 8672 in 1 place, below massif's threshold (1.00%)
+             n1: 76800 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 76800 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 76800 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 9160 in 1 place, below massif's threshold (1.00%)
+            n1: 75172 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 75172 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 75172 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 9948 in 1 place, below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n1: 75772 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 75772 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 75772 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 13188 in 1 place, below massif's threshold (1.00%)
+    n1: 76816 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 76816 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 76816 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 13280 in 1 place, below massif's threshold (1.00%)
+   n1: 76956 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 76956 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 76956 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 13812 in 1 place, below massif's threshold (1.00%)
+  n1: 78276 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 78276 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 78276 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 16252 in 1 place, below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 509712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 465888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 43824 in 2 places, all below massif's threshold (1.00%)
+                             n0: 44472 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=221146880
+mem_heap_B=7287625
+mem_heap_extra_B=3375207
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=233476197
+mem_heap_B=10895049
+mem_heap_extra_B=4842135
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=255052084
+mem_heap_B=17180373
+mem_heap_extra_B=7180779
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=276628105
+mem_heap_B=23323037
+mem_heap_extra_B=10101595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=292780029
+mem_heap_B=25329133
+mem_heap_extra_B=11022835
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=303257276
+mem_heap_B=25330189
+mem_heap_extra_B=11023491
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=432543367
+mem_heap_B=25330245
+mem_heap_extra_B=11023531
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=444104352
+mem_heap_B=25330357
+mem_heap_extra_B=11023579
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=558963739
+mem_heap_B=25330405
+mem_heap_extra_B=11023595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=853242860
+mem_heap_B=25330441
+mem_heap_extra_B=11023615
+mem_stacks_B=0
+heap_tree=detailed
+n5: 25330441 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 14419400 0x10A820: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 7682664 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 7682664 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 7682664 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 7682664 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 6216936 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 6216936 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 6216936 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 6216936 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 519800 in 6 places, all below massif's threshold (1.00%)
+ n3: 5841648 0x10A800: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 2931456 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 2931456 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 2931456 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2931456 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 2619408 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 2619408 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 2619408 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2619408 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 290784 in 6 places, all below massif's threshold (1.00%)
+ n2: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n0: 82128 in 2 places, all below massif's threshold (1.00%)
+                  n0: 83020 in 2 places, all below massif's threshold (1.00%)
+                 n0: 84168 in 2 places, all below massif's threshold (1.00%)
+                n0: 84452 in 2 places, all below massif's threshold (1.00%)
+               n0: 85044 in 2 places, all below massif's threshold (1.00%)
+              n0: 84984 in 2 places, all below massif's threshold (1.00%)
+             n0: 85960 in 2 places, all below massif's threshold (1.00%)
+            n0: 85120 in 2 places, all below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n0: 88960 in 2 places, all below massif's threshold (1.00%)
+    n0: 90096 in 2 places, all below massif's threshold (1.00%)
+   n0: 90768 in 2 places, all below massif's threshold (1.00%)
+  n0: 94528 in 2 places, all below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 509712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 465888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 43824 in 2 places, all below massif's threshold (1.00%)
+                             n0: 44472 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=865571883
+mem_heap_B=15368845
+mem_heap_extra_B=6329955
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=881429288
+mem_heap_B=5085421
+mem_heap_extra_B=2412115
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=903005364
+mem_heap_B=11058753
+mem_heap_extra_B=5064607
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=913368977
+mem_heap_B=11962317
+mem_heap_extra_B=5507091
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=955433899
+mem_heap_B=11962585
+mem_heap_extra_B=5507255
+mem_stacks_B=0
+heap_tree=detailed
+n5: 11962585 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4381560 0x10A820: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 2443848 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 2443848 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 2443848 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2443848 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1794672 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1794672 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1794672 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1794672 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 143040 in 6 places, all below massif's threshold (1.00%)
+ n2: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n0: 82128 in 2 places, all below massif's threshold (1.00%)
+                  n0: 83020 in 2 places, all below massif's threshold (1.00%)
+                 n0: 84168 in 2 places, all below massif's threshold (1.00%)
+                n0: 84452 in 2 places, all below massif's threshold (1.00%)
+               n0: 85044 in 2 places, all below massif's threshold (1.00%)
+              n0: 84984 in 2 places, all below massif's threshold (1.00%)
+             n0: 85960 in 2 places, all below massif's threshold (1.00%)
+            n0: 85120 in 2 places, all below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n0: 88960 in 2 places, all below massif's threshold (1.00%)
+    n0: 90096 in 2 places, all below massif's threshold (1.00%)
+   n0: 90768 in 2 places, all below massif's threshold (1.00%)
+  n0: 94528 in 2 places, all below massif's threshold (1.00%)
+ n3: 2511632 0x10A800: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1298352 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1298352 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1298352 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1298352 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1097184 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1097184 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1097184 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1097184 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 116096 in 6 places, all below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 509712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 465888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 43824 in 2 places, all below massif's threshold (1.00%)
+                             n0: 44472 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=961286168
+mem_heap_B=11962629
+mem_heap_extra_B=5507275
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=984971038
+mem_heap_B=11962673
+mem_heap_extra_B=5507295
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1004900212
+mem_heap_B=11963429
+mem_heap_extra_B=5507755
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1018232084
+mem_heap_B=11963509
+mem_heap_extra_B=5507803
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1032122362
+mem_heap_B=11963669
+mem_heap_extra_B=5507899
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1051570839
+mem_heap_B=11963789
+mem_heap_extra_B=5507971
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1216309052
+mem_heap_B=11963797
+mem_heap_extra_B=5507963
+mem_stacks_B=0
+heap_tree=detailed
+n5: 11963797 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4382292 0x10A820: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 2443848 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 2443848 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 2443848 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2443848 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1794672 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1794672 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1794672 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1794672 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 143772 in 6 places, all below massif's threshold (1.00%)
+ n2: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n0: 82128 in 2 places, all below massif's threshold (1.00%)
+                  n0: 83020 in 2 places, all below massif's threshold (1.00%)
+                 n0: 84168 in 2 places, all below massif's threshold (1.00%)
+                n0: 84452 in 2 places, all below massif's threshold (1.00%)
+               n0: 85044 in 2 places, all below massif's threshold (1.00%)
+              n0: 84984 in 2 places, all below massif's threshold (1.00%)
+             n0: 85960 in 2 places, all below massif's threshold (1.00%)
+            n0: 85120 in 2 places, all below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n0: 88960 in 2 places, all below massif's threshold (1.00%)
+    n0: 90096 in 2 places, all below massif's threshold (1.00%)
+   n0: 90768 in 2 places, all below massif's threshold (1.00%)
+  n0: 94528 in 2 places, all below massif's threshold (1.00%)
+ n3: 2512112 0x10A800: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1298352 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1298352 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1298352 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1298352 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1097184 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1097184 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1097184 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1097184 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 116576 in 6 places, all below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 509712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 465888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 43824 in 2 places, all below massif's threshold (1.00%)
+                             n0: 44472 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=1234222932
+mem_heap_B=5575421
+mem_heap_extra_B=2554739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1251915462
+mem_heap_B=11323205
+mem_heap_extra_B=4021563
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1260761714
+mem_heap_B=14202549
+mem_heap_extra_B=4859483
+mem_stacks_B=0
+heap_tree=detailed
+n5: 14202549 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 6837908 0x10A820: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 6508240 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 6508240 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 6508240 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 6508240 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 314288 0x109589: metodo_permutacion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 314288 0x109E9A: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 314288 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 314288 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 15380 in 6 places, all below massif's threshold (1.00%)
+ n2: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n0: 82128 in 2 places, all below massif's threshold (1.00%)
+                  n0: 83020 in 2 places, all below massif's threshold (1.00%)
+                 n0: 84168 in 2 places, all below massif's threshold (1.00%)
+                n0: 84452 in 2 places, all below massif's threshold (1.00%)
+               n0: 85044 in 2 places, all below massif's threshold (1.00%)
+              n0: 84984 in 2 places, all below massif's threshold (1.00%)
+             n0: 85960 in 2 places, all below massif's threshold (1.00%)
+            n0: 85120 in 2 places, all below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n0: 88960 in 2 places, all below massif's threshold (1.00%)
+    n0: 90096 in 2 places, all below massif's threshold (1.00%)
+   n0: 90768 in 2 places, all below massif's threshold (1.00%)
+  n0: 94528 in 2 places, all below massif's threshold (1.00%)
+ n2: 2295248 0x10A800: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 2180000 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 2180000 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 2180000 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2180000 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 115248 in 7 places, all below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 509712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 465888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 43824 in 2 places, all below massif's threshold (1.00%)
+                             n0: 44472 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=1274031202
+mem_heap_B=18576581
+mem_heap_extra_B=6660555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1282877534
+mem_heap_B=21492557
+mem_heap_extra_B=7861251
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1296146913
+mem_heap_B=25412965
+mem_heap_extra_B=9338267
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1313839560
+mem_heap_B=30915473
+mem_heap_extra_B=11181295
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1331532069
+mem_heap_B=36790801
+mem_heap_extra_B=12650159
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1345002181
+mem_heap_B=40004273
+mem_heap_extra_B=13631215
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1365013946
+mem_heap_B=40005401
+mem_heap_extra_B=13631943
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1568032681
+mem_heap_B=40005901
+mem_heap_extra_B=13632259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2154063457
+mem_heap_B=40005941
+mem_heap_extra_B=13632275
+mem_stacks_B=0
+heap_tree=peak
+n5: 40005941 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 26102180 0x10A820: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 13659888 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 13659888 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 13659888 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 13659888 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 11467632 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 11467632 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 11467632 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 11467632 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 974660 in 6 places, all below massif's threshold (1.00%)
+ n3: 8834368 0x10A800: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 4384512 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 4384512 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 4384512 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 4384512 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 3998544 0x109BCA: metodo_reemplazo (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 3998544 0x109EDF: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 3998544 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 3998544 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 451312 in 6 places, all below massif's threshold (1.00%)
+ n2: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n0: 82128 in 2 places, all below massif's threshold (1.00%)
+                  n0: 83020 in 2 places, all below massif's threshold (1.00%)
+                 n0: 84168 in 2 places, all below massif's threshold (1.00%)
+                n0: 84452 in 2 places, all below massif's threshold (1.00%)
+               n0: 85044 in 2 places, all below massif's threshold (1.00%)
+              n0: 84984 in 2 places, all below massif's threshold (1.00%)
+             n0: 85960 in 2 places, all below massif's threshold (1.00%)
+            n0: 85120 in 2 places, all below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n0: 88960 in 2 places, all below massif's threshold (1.00%)
+    n0: 90096 in 2 places, all below massif's threshold (1.00%)
+   n0: 90768 in 2 places, all below massif's threshold (1.00%)
+  n0: 94528 in 2 places, all below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n1: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n0: 554184 in 3 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=2176178894
+mem_heap_B=19209037
+mem_heap_extra_B=6927171
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2182031180
+mem_heap_B=13213413
+mem_heap_extra_B=4493579
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2187883466
+mem_heap_B=7538469
+mem_heap_extra_B=3074827
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2193735760
+mem_heap_B=5319193
+mem_heap_extra_B=2506463
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2199588078
+mem_heap_B=7062425
+mem_heap_extra_B=3087559
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2205440399
+mem_heap_B=8682133
+mem_heap_extra_B=3876147
+mem_stacks_B=0
+heap_tree=detailed
+n5: 8682133 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 3100176 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 3005648 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 2914880 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 2824784 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2735824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 2648744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 2562760 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 2477660 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 2392804 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 2308184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 2223976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 2138856 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 2052896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1967912 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1882868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1798416 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1714248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1631228 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1549100 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1469036 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1389972 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 1312216 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 1235324 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 1160068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 1086016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 1012244 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 940148 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 867652 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 797248 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 727968 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 69280 in 2 places, all below massif's threshold (1.00%)
+                             n0: 70404 in 2 places, all below massif's threshold (1.00%)
+                            n0: 72496 in 2 places, all below massif's threshold (1.00%)
+                           n0: 72096 in 2 places, all below massif's threshold (1.00%)
+                          n0: 73772 in 2 places, all below massif's threshold (1.00%)
+                         n0: 74052 in 2 places, all below massif's threshold (1.00%)
+                        n0: 75256 in 2 places, all below massif's threshold (1.00%)
+                       n0: 76892 in 2 places, all below massif's threshold (1.00%)
+                      n0: 77756 in 2 places, all below massif's threshold (1.00%)
+                     n0: 79064 in 2 places, all below massif's threshold (1.00%)
+                    n0: 80064 in 2 places, all below massif's threshold (1.00%)
+                   n0: 82128 in 2 places, all below massif's threshold (1.00%)
+                  n0: 83020 in 2 places, all below massif's threshold (1.00%)
+                 n0: 84168 in 2 places, all below massif's threshold (1.00%)
+                n0: 84452 in 2 places, all below massif's threshold (1.00%)
+               n0: 85044 in 2 places, all below massif's threshold (1.00%)
+              n0: 84984 in 2 places, all below massif's threshold (1.00%)
+             n0: 85960 in 2 places, all below massif's threshold (1.00%)
+            n0: 85120 in 2 places, all below massif's threshold (1.00%)
+           n0: 84208 in 2 places, all below massif's threshold (1.00%)
+          n0: 84620 in 2 places, all below massif's threshold (1.00%)
+         n0: 84856 in 2 places, all below massif's threshold (1.00%)
+        n0: 85100 in 2 places, all below massif's threshold (1.00%)
+       n0: 85984 in 2 places, all below massif's threshold (1.00%)
+      n0: 87080 in 2 places, all below massif's threshold (1.00%)
+     n0: 88960 in 2 places, all below massif's threshold (1.00%)
+    n0: 90096 in 2 places, all below massif's threshold (1.00%)
+   n0: 90768 in 2 places, all below massif's threshold (1.00%)
+  n0: 94528 in 2 places, all below massif's threshold (1.00%)
+ n2: 2430948 0x10A820: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 2351196 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 2351196 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 2351196 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 2351196 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 79752 in 7 places, all below massif's threshold (1.00%)
+ n2: 1923576 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1864464 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1807824 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1751496 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1695552 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1640376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1585800 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1531992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1478688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1425960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1373976 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 1322520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 1271568 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 1221000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 1171008 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 1121304 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 1071864 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 1022952 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 974352 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 926016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 878136 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 830592 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 783504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 736776 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 690408 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 644424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 599160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 554184 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 509712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 465888 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 43824 in 2 places, all below massif's threshold (1.00%)
+                             n0: 44472 in 2 places, all below massif's threshold (1.00%)
+                            n0: 44976 in 2 places, all below massif's threshold (1.00%)
+                           n0: 45264 in 2 places, all below massif's threshold (1.00%)
+                          n0: 45984 in 2 places, all below massif's threshold (1.00%)
+                         n0: 46368 in 2 places, all below massif's threshold (1.00%)
+                        n0: 46728 in 2 places, all below massif's threshold (1.00%)
+                       n0: 47088 in 2 places, all below massif's threshold (1.00%)
+                      n0: 47544 in 2 places, all below massif's threshold (1.00%)
+                     n0: 47880 in 2 places, all below massif's threshold (1.00%)
+                    n0: 48336 in 2 places, all below massif's threshold (1.00%)
+                   n0: 48600 in 2 places, all below massif's threshold (1.00%)
+                  n0: 48912 in 2 places, all below massif's threshold (1.00%)
+                 n0: 49440 in 2 places, all below massif's threshold (1.00%)
+                n0: 49704 in 2 places, all below massif's threshold (1.00%)
+               n0: 49992 in 2 places, all below massif's threshold (1.00%)
+              n0: 50568 in 2 places, all below massif's threshold (1.00%)
+             n0: 50952 in 2 places, all below massif's threshold (1.00%)
+            n0: 51456 in 2 places, all below massif's threshold (1.00%)
+           n0: 51984 in 2 places, all below massif's threshold (1.00%)
+          n0: 52728 in 2 places, all below massif's threshold (1.00%)
+         n0: 53304 in 2 places, all below massif's threshold (1.00%)
+        n0: 53808 in 2 places, all below massif's threshold (1.00%)
+       n0: 54576 in 2 places, all below massif's threshold (1.00%)
+      n0: 55176 in 2 places, all below massif's threshold (1.00%)
+     n0: 55944 in 2 places, all below massif's threshold (1.00%)
+    n0: 56328 in 2 places, all below massif's threshold (1.00%)
+   n0: 56640 in 2 places, all below massif's threshold (1.00%)
+  n0: 59112 in 2 places, all below massif's threshold (1.00%)
+ n2: 1181792 0x10A800: slist_agregar_inicio (in /home/fari/correctorOrtografico/corrector.o)
+  n1: 1139136 0x109805: metodo_insercion (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 1139136 0x109EB1: corregir_palabra (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 1139136 0x10A0B5: corregir_archivo (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 1139136 0x10A27D: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 42656 in 7 places, all below massif's threshold (1.00%)
+ n0: 45641 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=2211292725
+mem_heap_B=10265133
+mem_heap_extra_B=4728531
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2217145000
+mem_heap_B=11812573
+mem_heap_extra_B=5474131
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2222997362
+mem_heap_B=13514293
+mem_heap_extra_B=6148411
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2228849722
+mem_heap_B=15270117
+mem_heap_extra_B=6745307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2235386646
+mem_heap_B=15416533
+mem_heap_extra_B=6843019
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=2284718033
+mem_heap_B=15416769
+mem_heap_extra_B=6843183
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2432265947
+mem_heap_B=15416885
+mem_heap_extra_B=6843211
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2438118221
+mem_heap_B=11358497
+mem_heap_extra_B=5269591
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2443970507
+mem_heap_B=6938253
+mem_heap_extra_B=3045787
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2449822800
+mem_heap_B=3765153
+mem_heap_extra_B=1789447
+mem_stacks_B=0
+heap_tree=detailed
+n3: 3765153 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2308824 0x10A2DC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n3: 2238816 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n3: 2171720 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n3: 2104460 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 2038144 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1973068 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1908580 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1845032 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1782056 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1718816 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n3: 1656264 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n3: 1592896 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n3: 1529124 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n3: 1465744 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n3: 1402608 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n3: 1339640 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n3: 1276868 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n3: 1214792 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 1153480 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 1093772 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 1034844 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 976924 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 919796 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 863484 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 808536 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 753328 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 699764 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 645404 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 592520 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 540732 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 51788 in 2 places, all below massif's threshold (1.00%)
+                             n0: 52884 in 2 places, all below massif's threshold (1.00%)
+                            n0: 54360 in 2 places, all below massif's threshold (1.00%)
+                           n0: 53564 in 2 places, all below massif's threshold (1.00%)
+                          n0: 55208 in 2 places, all below massif's threshold (1.00%)
+                         n0: 54948 in 2 places, all below massif's threshold (1.00%)
+                        n0: 56312 in 2 places, all below massif's threshold (1.00%)
+                       n0: 57128 in 2 places, all below massif's threshold (1.00%)
+                      n0: 57920 in 2 places, all below massif's threshold (1.00%)
+                     n0: 58928 in 2 places, all below massif's threshold (1.00%)
+                    n0: 59708 in 2 places, all below massif's threshold (1.00%)
+                   n1: 56784 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n1: 56784 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                     n0: 56784 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 4528 in 1 place, below massif's threshold (1.00%)
+                  n1: 57368 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n1: 57368 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                    n0: 57368 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 4708 in 1 place, below massif's threshold (1.00%)
+                 n1: 57616 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n1: 57616 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                   n0: 57616 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 5156 in 1 place, below massif's threshold (1.00%)
+                n1: 57368 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n1: 57368 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                  n0: 57368 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 5600 in 1 place, below massif's threshold (1.00%)
+               n1: 57220 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n1: 57220 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                 n0: 57220 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 5916 in 1 place, below massif's threshold (1.00%)
+              n1: 56824 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n1: 56824 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+                n0: 56824 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 6556 in 1 place, below massif's threshold (1.00%)
+             n1: 56792 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n1: 56792 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+               n0: 56792 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+             n0: 6980 in 1 place, below massif's threshold (1.00%)
+            n1: 55844 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n1: 55844 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+              n0: 55844 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+            n0: 7524 in 1 place, below massif's threshold (1.00%)
+           n0: 62552 in 2 places, all below massif's threshold (1.00%)
+          n0: 63240 in 2 places, all below massif's threshold (1.00%)
+         n0: 62976 in 2 places, all below massif's threshold (1.00%)
+        n0: 63548 in 2 places, all below massif's threshold (1.00%)
+       n0: 64488 in 2 places, all below massif's threshold (1.00%)
+      n0: 65076 in 2 places, all below massif's threshold (1.00%)
+     n1: 56492 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n1: 56492 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+       n0: 56492 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 9824 in 1 place, below massif's threshold (1.00%)
+    n1: 57272 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n1: 57272 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+      n0: 57272 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 9988 in 1 place, below massif's threshold (1.00%)
+   n1: 57136 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n1: 57136 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+     n0: 57136 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+   n0: 9960 in 1 place, below massif's threshold (1.00%)
+  n1: 58292 0x10A70B: tablahash_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n1: 58292 0x10A1F1: leer_diccionario (in /home/fari/correctorOrtografico/corrector.o)
+    n0: 58292 0x10A266: main (in /home/fari/correctorOrtografico/corrector.o)
+  n0: 11716 in 1 place, below massif's threshold (1.00%)
+ n2: 1431720 0x10A2BC: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+  n2: 1387992 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+   n2: 1345920 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+    n2: 1304016 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+     n2: 1262424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+      n2: 1221312 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+       n2: 1180560 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+        n2: 1140432 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+         n2: 1100712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+          n2: 1061376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+           n2: 1022616 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+            n2: 984312 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+             n2: 946344 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+              n2: 908712 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+               n2: 871512 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                n2: 834504 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                 n2: 797688 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                  n2: 761280 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                   n2: 725064 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                    n2: 689040 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                     n2: 653376 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                      n2: 618000 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                       n2: 582960 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                        n2: 548160 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                         n2: 513624 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                          n2: 479424 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                           n2: 445680 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                            n2: 412104 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                             n2: 378984 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 346344 0x10A37B: bstree_insertar (in /home/fari/correctorOrtografico/corrector.o)
+                              n0: 32640 in 2 places, all below massif's threshold (1.00%)
+                             n0: 33120 in 2 places, all below massif's threshold (1.00%)
+                            n0: 33576 in 2 places, all below massif's threshold (1.00%)
+                           n0: 33744 in 2 places, all below massif's threshold (1.00%)
+                          n0: 34200 in 2 places, all below massif's threshold (1.00%)
+                         n0: 34536 in 2 places, all below massif's threshold (1.00%)
+                        n0: 34800 in 2 places, all below massif's threshold (1.00%)
+                       n0: 35040 in 2 places, all below massif's threshold (1.00%)
+                      n0: 35376 in 2 places, all below massif's threshold (1.00%)
+                     n0: 35664 in 2 places, all below massif's threshold (1.00%)
+                    n0: 36024 in 2 places, all below massif's threshold (1.00%)
+                   n0: 36216 in 2 places, all below massif's threshold (1.00%)
+                  n0: 36408 in 2 places, all below massif's threshold (1.00%)
+                 n0: 36816 in 2 places, all below massif's threshold (1.00%)
+                n0: 37008 in 2 places, all below massif's threshold (1.00%)
+               n0: 37200 in 2 places, all below massif's threshold (1.00%)
+              n0: 37632 in 2 places, all below massif's threshold (1.00%)
+             n0: 37968 in 2 places, all below massif's threshold (1.00%)
+            n0: 38304 in 2 places, all below massif's threshold (1.00%)
+           n0: 38760 in 2 places, all below massif's threshold (1.00%)
+          n0: 39336 in 2 places, all below massif's threshold (1.00%)
+         n0: 39720 in 2 places, all below massif's threshold (1.00%)
+        n0: 40128 in 2 places, all below massif's threshold (1.00%)
+       n0: 40752 in 2 places, all below massif's threshold (1.00%)
+      n0: 41112 in 2 places, all below massif's threshold (1.00%)
+     n0: 41592 in 2 places, all below massif's threshold (1.00%)
+    n0: 41904 in 2 places, all below massif's threshold (1.00%)
+   n0: 42072 in 2 places, all below massif's threshold (1.00%)
+  n0: 43728 in 2 places, all below massif's threshold (1.00%)
+ n0: 24609 in 15 places, all below massif's threshold (1.00%)
