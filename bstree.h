@@ -45,7 +45,7 @@ BSTree bstree_insertar(BSTree arbol, wchar_t* string);
   Dado un string y un árbol, devuelve 1 si el árbol contiene al string,
   en caso contrario devuelve 0.
 */
-int bstree_buscar(BSTree arbol, wchar_t* string);
+int bstree_contiene(BSTree arbol, wchar_t* string);
 
 /*
   bstree_destruir(): BSTree -> void
@@ -53,15 +53,35 @@ int bstree_buscar(BSTree arbol, wchar_t* string);
 */
 void bstree_destruir(BSTree arbol);
 
+/*
+  bstree_cantidad(): BSTree -> int
+  Devuelve la cantidad de elementos que tiene el árbol.
+*/
 int bstree_cantidad(BSTree arbol);
 
+/*
+  bstree_recorrer(): BSTree BSTreeOrdenDeRecorrido FuncionVisitante -> void
+  Evalúa la función visit en todos los elementos del arbol en el orden dado.
+*/
 void bstree_recorrer(BSTree arbol, BSTreeOrdenDeRecorrido orden,
                     FuncionVisitante visit);
 
+/*
+  bstree_recorrer_in(): BSTree FuncionVisitante -> void
+  Evalúa la función visit en todos los elementos del arbol en inorden
+*/
 void bstree_recorrido_in(BSTree arbol, FuncionVisitante visit);
 
+/*
+  bstree_recorrer_pre(): BSTree FuncionVisitante -> void
+  Evalúa la función visit en todos los elementos del arbol en preorden.
+*/
 void bstree_recorrido_pre(BSTree arbol, FuncionVisitante visit);
 
+/*
+  bstree_recorrer_post(): BSTree FuncionVisitante -> void
+  Evalúa la función visit en todos los elementos del arbol en postorden.
+*/
 void bstree_recorrido_post(BSTree arbol, FuncionVisitante visit);
 
 #endif /* __BSTREE_H__ */

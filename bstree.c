@@ -1,8 +1,6 @@
 #include "bstree.h"
 #include <stdlib.h>
-#include <stddef.h>
 #include <wchar.h>
-#include <stdio.h>
 
 BSTree bstree_crear() {
   return NULL;
@@ -29,7 +27,7 @@ BSTree bstree_insertar(BSTree arbol, wchar_t* string) {
   return arbol;
 }
 
-int bstree_buscar(BSTree arbol, wchar_t* string) {
+int bstree_contiene(BSTree arbol, wchar_t* string) {
   if (arbol == NULL) {
     return 0;
   }
@@ -39,9 +37,9 @@ int bstree_buscar(BSTree arbol, wchar_t* string) {
   if (comparacionStrings == 0) {
     return 1;
   } else if (comparacionStrings < 0) {
-    return bstree_buscar(arbol->left, string);
+    return bstree_contiene(arbol->left, string);
   } else {
-    return bstree_buscar(arbol->right, string);
+    return bstree_contiene(arbol->right, string);
   }
 }
 

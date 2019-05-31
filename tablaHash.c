@@ -20,9 +20,9 @@ void tablahash_insertar(TablaHash* tabla, wchar_t* string) {
   tabla->tabla[clave] = bstree_insertar(tabla->tabla[clave], string);
 }
 
-int tablahash_buscar(TablaHash* tabla, wchar_t* string) {
+int tablahash_contiene(TablaHash* tabla, wchar_t* string) {
   size_t clave = tabla->hash(string) % tabla->capacidad;
-  return bstree_buscar(tabla->tabla[clave], string);
+  return bstree_contiene(tabla->tabla[clave], string);
 }
 
 void tablahash_destruir(TablaHash* tabla) {

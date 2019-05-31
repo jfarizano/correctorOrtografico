@@ -5,13 +5,16 @@
 #include <stddef.h>
 
 ///////////////////////////////////////////////////////////////////////////////
+// Constantes.
+
+
+///////////////////////////////////////////////////////////////////////////////
 // Puntero a función hash.
 
 typedef size_t (*FuncionHash)(wchar_t* string);
 
 ///////////////////////////////////////////////////////////////////////////////
 // Definiciones de estructuras.
-
 
 typedef struct {
   BSTree* tabla;
@@ -39,7 +42,7 @@ void tablahash_insertar(TablaHash* tabla, wchar_t* string);
   Dado un string, lo busca en la tabla hash. Si la tabla contiene el string
   devuelve 1, en caso contrario devuelve 0.
  */
-int tablahash_buscar(TablaHash* tabla, wchar_t* string);
+int tablahash_contiene(TablaHash* tabla, wchar_t* string);
 
 /*
   tablahash_destruir(): TablaHash* -> void
