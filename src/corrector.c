@@ -50,14 +50,7 @@ size_t hash_polinomico(wchar_t* string) {
   return clave % SIZETABLAHASH;
 }
 
-size_t hash_suma(wchar_t* string) {
-  size_t suma = 0;
-  for (size_t i = 0; i < wcslen(string); i++) {
-    suma += string[i];
-  }
 
-  return suma;
-}
 
 int caracter_especial(wchar_t charFinal) {
   if (charFinal == 58 || charFinal == 59 || charFinal == 44 || 
@@ -88,8 +81,7 @@ void comprobar_sugerencia(TablaHash* diccionario, SList* sugerencias,
 
 void metodo_permutacion(TablaHash* diccionario, SList cambiosActuales, 
                           SList* cambiosNuevos, SList* sugerencias, 
-                          size_t* cantSugerencias, size_t* profundidad, 
-                          wchar_t* palabra) {
+                          size_t* cantSugerencias, size_t* profundidad) {
 
   if (!continuar(*cantSugerencias, *profundidad)) {
     return;
@@ -121,8 +113,7 @@ void metodo_permutacion(TablaHash* diccionario, SList cambiosActuales,
 
 void metodo_insercion(TablaHash* diccionario, SList cambiosActuales, 
                           SList* cambiosNuevos, SList* sugerencias, 
-                          size_t* cantSugerencias, size_t* profundidad, 
-                          wchar_t* palabra) {
+                          size_t* cantSugerencias, size_t* profundidad) {
 
   if (!continuar(*cantSugerencias, *profundidad)) {
     return;
@@ -158,8 +149,7 @@ void metodo_insercion(TablaHash* diccionario, SList cambiosActuales,
 
 void metodo_eliminacion(TablaHash* diccionario, SList cambiosActuales, 
                           SList* cambiosNuevos, SList* sugerencias, 
-                          size_t* cantSugerencias, size_t* profundidad, 
-                          wchar_t* palabra) {
+                          size_t* cantSugerencias, size_t* profundidad) {
 
   if (!continuar(*cantSugerencias, *profundidad)) {
     return;
@@ -188,8 +178,7 @@ void metodo_eliminacion(TablaHash* diccionario, SList cambiosActuales,
 
 void metodo_reemplazo(TablaHash* diccionario, SList cambiosActuales, 
                           SList* cambiosNuevos, SList* sugerencias, 
-                          size_t* cantSugerencias, size_t* profundidad,
-                          wchar_t* palabra) {
+                          size_t* cantSugerencias, size_t* profundidad) {
 
   if (!continuar(*cantSugerencias, *profundidad)) {
     return;
@@ -223,8 +212,7 @@ void metodo_reemplazo(TablaHash* diccionario, SList cambiosActuales,
 
 void metodo_separacion(TablaHash* diccionario, SList cambiosActuales, 
                           SList* cambiosNuevos, SList* sugerencias, 
-                          size_t* cantSugerencias, size_t* profundidad, 
-                          wchar_t* palabra) {
+                          size_t* cantSugerencias, size_t* profundidad) {
 
   if (!continuar(*cantSugerencias, *profundidad) || *profundidad > 1) {
     return;
@@ -274,15 +262,15 @@ void corregir_palabra(wchar_t* palabra, TablaHash* diccionario,
  
     while (continuar(cantSugerencias, profundidad)) {
       metodo_permutacion(diccionario, cambiosActuales, &cambiosNuevos, 
-                          &sugerencias, &cantSugerencias, &profundidad, palabra);
+                          &sugerencias, &cantSugerencias, &profundidad);
       metodo_insercion(diccionario, cambiosActuales, &cambiosNuevos, 
-                        &sugerencias, &cantSugerencias, &profundidad, palabra);
+                        &sugerencias, &cantSugerencias, &profundidad);
       metodo_eliminacion(diccionario, cambiosActuales, &cambiosNuevos, 
-                          &sugerencias, &cantSugerencias, &profundidad, palabra);
+                          &sugerencias, &cantSugerencias, &profundidad);
       metodo_reemplazo(diccionario, cambiosActuales, &cambiosNuevos, 
-                        &sugerencias, &cantSugerencias, &profundidad, palabra);
+                        &sugerencias, &cantSugerencias, &profundidad);
       metodo_separacion(diccionario, cambiosActuales, &cambiosNuevos, 
-                          &sugerencias, &cantSugerencias, &profundidad, palabra);
+                          &sugerencias, &cantSugerencias, &profundidad);
 
       profundidad++;
       slist_destruir(cambiosActuales);
@@ -313,12 +301,13 @@ void corregir_archivo(char* nombreArchivoEntrada, char* nombreArchivoSalida,
     if (charBuff != L' ' && charBuff != L'\n') {
       strBuff[i] = charBuff;
       i++;
-    } else {
-      
+    } else {   
       strBuff[i] = L'\0';
       i = 0;
-      string_minuscula(strBuff);
-      corregir_palabra(strBuff, diccionario, linea, archivoSalida);
+      if (wcslen(strBuff) != 0) {
+        string_minuscula(strBuff);
+        corregir_palabra(strBuff, diccionario, linea, archivoSalida);
+      }
       if (charBuff == L'\n') {
         linea++;
       }
